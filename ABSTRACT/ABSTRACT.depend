@@ -1,0 +1,260 @@
+# depslib dependency file v1.0
+1657718147 source:d:\dropbox\_petercpp\abstract\main.c
+	<conio.h>
+	<stdlib.h>
+	"log.h"
+	"os.h"
+	"run.h"
+
+1657435554 d:\dropbox\_petercpp\abstract\log.h
+
+1657552153 source:d:\dropbox\_petercpp\abstract\log.c
+	<stdio.h>
+	<stdarg.h>
+	"log.h"
+	"settings.h"
+
+1657652130 d:\dropbox\_petercpp\abstract\settings.h
+	<stdlib.h>
+	"log.h"
+
+1657797856 source:d:\dropbox\_petercpp\abstract\settings.c
+	<stdlib.h>
+	"log.h"
+
+1656942709 d:\dropbox\_petercpp\abstract\os.h
+
+1657473844 source:d:\dropbox\_petercpp\abstract\file_handling.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"log.h"
+
+1657003263 source:d:\dropbox\_petercpp\abstract\replace_string_area.c
+	"replace_string_area.h"
+	<stdlib.h>
+	<string.h>
+
+1657003180 d:\dropbox\_petercpp\abstract\replace_string_area.h
+
+1657004180 source:d:\dropbox\_petercpp\abstract\insert_file_contents.c
+	<stdlib.h>
+	<string.h>
+
+1657786533 source:d:\dropbox\_petercpp\abstract\token.c
+	"token.h"
+	<stdlib.h>
+	"log.h"
+	"list.h"
+	"buffer.h"
+
+1657796762 d:\dropbox\_petercpp\abstract\token.h
+	"log.h"
+
+1657533157 source:d:\dropbox\_petercpp\abstract\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1657476383 d:\dropbox\_petercpp\abstract\list.h
+	"log.h"
+
+1657648239 source:d:\dropbox\_petercpp\abstract\lexer.c
+	"list.h"
+	"token.h"
+	"scan_token.h"
+	"get_token_type.h"
+	"replace_files_with_tokens.h"
+	"file_handling.h"
+
+1657119148 source:d:\dropbox\_petercpp\abstract\token_recognition.c
+	<string.h>
+	"settings.h"
+	"token.h"
+
+1657796952 source:d:\dropbox\_petercpp\abstract\get_token_type.c
+	<stdlib.h>
+	<string.h>
+	"settings.h"
+	"token.h"
+	"token_recognition_functions.h"
+
+1657797104 source:d:\dropbox\_petercpp\abstract\scan_token.c
+	<stdlib.h>
+	<string.h>
+	"token.h"
+	"get_token_type.h"
+	"token_scanning_functions.h"
+
+1657124285 d:\dropbox\_petercpp\abstract\get_token_type.h
+
+1657212347 source:d:\dropbox\_petercpp\abstract\general_token_scanning_functions.c
+	<string.h>
+	"settings.h"
+	"token.h"
+
+1657207356 d:\dropbox\_petercpp\abstract\general_token_scanning_functions.h
+
+1657263580 d:\dropbox\_petercpp\abstract\buffer.h
+	<stdlib.h>
+	"log.h"
+
+1657551329 source:d:\dropbox\_petercpp\abstract\token_recognition_functions.c
+	<string.h>
+	"settings.h"
+	"token.h"
+
+1657213020 d:\dropbox\_petercpp\abstract\scan_token.h
+
+1657797848 source:d:\dropbox\_petercpp\abstract\token_scanning_functions.c
+	<stdlib.h>
+	<string.h>
+	"log.h"
+	"token_recognition_functions.h"
+	"buffer.h"
+
+1657214673 d:\dropbox\_petercpp\abstract\token_recognition_functions.h
+
+1657212796 d:\dropbox\_petercpp\abstract\token_scanning_functions.h
+
+1657553652 d:\dropbox\_petercpp\abstract\lexer.h
+
+1657263453 source:d:\dropbox\_petercpp\abstract\buffer.c
+	"buffer.h"
+	<stdlib.h>
+	"log.h"
+
+1657780396 source:d:\dropbox\_petercpp\abstract\compiler.c
+	<stdlib.h>
+	<string.h>
+	"file_handling.h"
+	"list.h"
+	"lexer.h"
+	"parser.h"
+	"stack.h"
+	"token.h"
+	"translation.h"
+
+1657437467 d:\dropbox\_petercpp\abstract\file_handling.h
+
+1657553645 d:\dropbox\_petercpp\abstract\compiler.h
+
+1657779584 source:d:\dropbox\_petercpp\abstract\stack.c
+	"stack.h"
+	<stdlib.h>
+	<string.h>
+	"settings.h"
+	"log.h"
+	"instruction.h"
+
+1657652528 d:\dropbox\_petercpp\abstract\stack.h
+	"settings.h"
+
+1657786487 source:d:\dropbox\_petercpp\abstract\parser.c
+	"log.h"
+	"list.h"
+	"token.h"
+	"replace_code_blocks_with_tokens.h"
+	"identifiers_to_ids.h"
+
+1657435424 d:\dropbox\_petercpp\abstract\run.h
+
+1657718158 source:d:\dropbox\_petercpp\abstract\run.c
+	"stack.h"
+	"compiler.h"
+	"execute.h"
+
+1657648147 d:\dropbox\_petercpp\abstract\parser.h
+
+1657647957 source:d:\dropbox\_petercpp\abstract\replace_files_with_tokens.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+	"token.h"
+	"file_handling.h"
+	"lexer.h"
+
+1657476279 d:\dropbox\_petercpp\abstract\replace_files_with_tokens.h
+
+1657648223 source:d:\dropbox\_petercpp\abstract\replace_code_blocks_with_tokens.c
+	<stdlib.h>
+	"list.h"
+	"token.h"
+
+1657477390 d:\dropbox\_petercpp\abstract\replace_code_blocks_with_tokens.h
+
+1657786475 source:d:\dropbox\_petercpp\abstract\identifiers_to_ids.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+	"token.h"
+	"settings.h"
+
+1657553638 d:\dropbox\_petercpp\abstract\identifiers_to_ids.h
+
+1657567666 source:d:\dropbox\_petercpp\abstract\tokens_to_instructions.c
+	"list.h"
+	"token.h"
+
+1657796857 source:d:\dropbox\_petercpp\abstract\instruction.c
+	"instruction.h"
+	"log.h"
+	"token.h"
+	"stack.h"
+
+1657796810 d:\dropbox\_petercpp\abstract\instruction.h
+	"log.h"
+	"token.h"
+
+1657797740 source:d:\dropbox\_petercpp\abstract\token_stream_to_instruction_list.c
+	"list.h"
+	"token.h"
+	"stack.h"
+	"buffer.h"
+	"instruction.h"
+
+1657653002 source:d:\dropbox\_petercpp\abstract\translation.c
+	"list.h"
+	"token.h"
+	"stack.h"
+	"token_stream_to_instruction_list.h"
+
+1657607617 d:\dropbox\_petercpp\abstract\token_stream_to_instruction_list.h
+
+1657607644 d:\dropbox\_petercpp\abstract\translation.h
+
+1657653815 source:d:\dropbox\_petercpp\abstract\execution_functions.c
+
+1657797174 source:d:\dropbox\_petercpp\abstract\arithmetic_instructions.c
+	"stack.h"
+	"math.h"
+
+1657735529 source:d:\dropbox\_petercpp\abstract\file_instructions.c
+	"stack.h"
+	<string.h>
+	"file_handling.h"
+
+1657797454 source:d:\dropbox\_petercpp\abstract\io_instructions.c
+	<stdio.h>
+	<string.h>
+	"stack.h"
+	"settings.h"
+
+1657779937 source:d:\dropbox\_petercpp\abstract\other_instructions.c
+	"stack.h"
+
+1657800010 source:d:\dropbox\_petercpp\abstract\pointer_instructions.c
+	"stack.h"
+	<stdlib.h>
+
+1657796883 source:d:\dropbox\_petercpp\abstract\execute.c
+	"stack.h"
+	"instruction.h"
+	"instruction_functions.h"
+	"settings.h"
+	"instruction_functions.h"
+
+1657796926 d:\dropbox\_petercpp\abstract\instruction_functions.h
+
+1657717831 d:\dropbox\_petercpp\abstract\execute.h
+
